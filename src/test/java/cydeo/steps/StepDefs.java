@@ -40,8 +40,6 @@ public class StepDefs {
         String actualTitle = Driver.getDriver().getTitle();
         System.out.println("actualTitle = " + actualTitle);
         Assert.assertEquals(expectedTitle,actualTitle);
-        System.out.println("Hello world");
-        System.out.println("lalalalal");
     }
 
 }
